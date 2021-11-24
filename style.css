@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding:0px;
+    margin:0px;
+    
+
+    
+    color: white;
+}
+
+nav{
+    display:flex;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 100%;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 100;
+    align-items: center;
+    height: 44px;
+    padding: 0px;
+    font-weight: 100;
+    font-size: 12px;
+    color: white;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    /* border: solid blue 5px; */
+    overflow:hidden;
+    
+}
+
+.navitem{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+
+
+/* 
+p{
+    text-align: center;
+    color: black;
+    margin-top: 120px;
+    font-size: 100px;
+} */
+
+a{
+    color: white;
+    
+    text-decoration: none;
+    /* font-weight: 100; */
+}
+
+.mag{
+margin-top: 45px;
+
+
+}
+
+#shopnow:hover{
+    text-decoration: underline;
+}
+
+.redthing{
+display:flex;
+background-color: #E34140;
+margin-top:44px;
+
+font-size: 14px;
+font-weight: 500;
+height: 45px;
+align-items: center;
+justify-content: center;
+
+}
+
+.blackbox{
+background-color: black;
+text-align: center;
+padding:0px;
+
+
+}
+
+#shopping{
+padding-top: 46px;
+font-size: 54px;
+margin-top: 0px;
+
+}
+
+#shopping2{
+font-size: 26px;
+font-weight: 500;
+padding-top: -30px;
+margin-top:-42px;
+margin-bottom: 17px;
+
+}
+
+#offers{
+     
+color: #2997ff;
+font-size: 20px;
+
+
+
+
+
+}
+
+#offers:hover{
+    text-decoration: underline;
+}
+
+#offerarr{
+display:inline-block;
+color: #2997ff;
+
+}
+
+#circle{
+color: white;
+border: solid rgba(255, 255, 255, 0.514) 1px;
+border-radius: 50%;
+width: 110px;
+height: 110px;
+text-align: center;
+margin:auto;
+margin-top:33px;
+display: inline-block;
+
+
+}
+
+#fri{
+font-size: 12px;
+color: rgba(255, 255, 255, 0.486);
+letter-spacing: 1px;
+}
+
+.twentysix{
+margin-top:-20px;
+font-size: 72px;
+font-weight: 500; 
+    display: inline-block;
+}
+
+#dates{
+padding-left: 380px;
+
+}
+
+#laterdates{
+    font-size: 72px;
+    font-weight: 100;
+   
+margin-top: 50px;
+opacity: 0.3;
+margin-left:25px;
+display: inline-block;
+}
+
+#twentyeight{
+    font-size: 72px;
+    font-weight: 100;
+    opacity: 0.2;
+margin-top: 50px;
+margin-right:40px;
+display: inline-block;
+margin-left:40px;
+}
+
+#twentynine{
+    font-size: 72px;
+    font-weight: 100;
+    opacity: 0.1;
+margin-top: 50px;
+display: inline-block;
+margin-left:5px;
+    
+}
+
+
+
+#picblock{
+
+display: block;
+margin-left: -350px;
+margin-top: -40px;
+
+
+
+}
+
+.picblock{
+padding-left:40px;
+
+}
+
+#watch{
+padding-bottom: 38px
+}
