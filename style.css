@@ -16,7 +16,8 @@ nav{
     height: 44px;
     font-weight: 100;
     font-size: 12px; 
-    overflow:hidden;    
+    overflow:hidden;
+    z-index: 3;    
 }
 
 .navItem{
@@ -180,7 +181,7 @@ a{
     margin-top:-40px;    
 }
 
-#learnBuy{
+#learnBuyiPhonePro{
     margin-top: -10px;
     color: #06c;
 }
@@ -202,4 +203,75 @@ a{
     position:relative;
     z-index: -1;
     margin-top: -230px;
+}
+
+#iPhone13{
+    background-color: rgb(53, 40, 60);
+    margin-top: -40px;
+
+    
+}
+
+#iPhone13Header{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 42px;
+    
+
+
+}
+
+#iPhone13Header2{
+    font-size: 26px;
+    text-align: center;
+    margin-top: -43px;
+    color: rgb(254, 194, 235);
+    font-weight: 500;
+}
+
+#learnBuyiPhone{
+    text-align: center;
+    margin-top:-12px;
+}
+
+#iPhonePicBox{
+    overflow: hidden;
+}
+
+#iPhonePic{
+    margin-left:-865px;
+    position:relative;
+    margin-top: -240px; 
+}
+
+#mainShop{
+    background-color: white;
+    margin-top: -36px;
+}
+
+#season{
+    background-color: rgb(238, 240, 255);
+    width: 50%;
+    margin-top:0px;
+    border: blue solid
+    
+}
+
+#seasonHeader{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+}
+
+#seasonPicBox{
+    overflow: hidden;
+}
+
+#seasonPic{
+    /* margin-left:-865px; */
+    position:relative;
+    margin-top: -240px;
+    border:blue solid;
+    
 }
