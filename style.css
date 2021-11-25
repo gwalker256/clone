@@ -1,11 +1,6 @@
-body{
-    background-color: rgb(255, 255, 255);
+body{    
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    padding:0px;
     margin:0px;
-    
-
-    
     color: white;
 }
 
@@ -16,193 +11,195 @@ nav{
     left:0px;
     top:0px;
     width: 100%;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 100;
+    justify-content: center;   
     align-items: center;
     height: 44px;
-    padding: 0px;
     font-weight: 100;
-    font-size: 12px;
-    color: white;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    /* border: solid blue 5px; */
-    overflow:hidden;
-    
+    font-size: 12px; 
+    overflow:hidden;    
 }
 
-.navitem{
+.navItem{
     padding: 20px;
     text-decoration: none;
-    color: white;
-    
-    
 }
-
-
-
-/* 
-p{
-    text-align: center;
-    color: black;
-    margin-top: 120px;
-    font-size: 100px;
-} */
 
 a{
-    color: white;
-    
+    color: white;    
     text-decoration: none;
-    /* font-weight: 100; */
 }
 
-.mag{
-margin-top: 45px;
-
-
+.magGlass{
+    margin-top: 45px;
 }
 
-#shopnow:hover{
+#shopNowHead{
+    display:flex;
+    background-color: #E34140;
+    margin-top:44px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+#shopNowLink:hover{
     text-decoration: underline;
 }
 
-.redthing{
-display:flex;
-background-color: #E34140;
-margin-top:44px;
-
-font-size: 14px;
-font-weight: 500;
-height: 45px;
-align-items: center;
-justify-content: center;
-
+#shoppingBox{
+    background-color: black;
+    text-align: center;
+    overflow:hidden;
+    height:625px;
 }
 
-.blackbox{
-background-color: black;
-text-align: center;
-padding:0px;
-
-
+#shoppingBoxHead{
+    padding-top: 46px;
+    font-size: 54px;
+    margin-top: 0px;
 }
 
-#shopping{
-padding-top: 46px;
-font-size: 54px;
-margin-top: 0px;
-
+#shoppingBoxHead2{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top:-42px;
+    margin-bottom: 17px;
 }
 
-#shopping2{
-font-size: 26px;
-font-weight: 500;
-padding-top: -30px;
-margin-top:-42px;
-margin-bottom: 17px;
-
+#little1Link{
+    font-size: 20px;
 }
 
-#offers{
-     
-color: #2997ff;
-font-size: 20px;
-
-
-
-
-
+#little1Link:hover{    
+    color: #2997ff;
 }
 
-#offers:hover{
+
+
+.blueLink{     
+    color: #2997ff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blueLink:hover{
     text-decoration: underline;
 }
 
-#offerarr{
-display:inline-block;
-color: #2997ff;
-
-}
-
-#circle{
-color: white;
-border: solid rgba(255, 255, 255, 0.514) 1px;
-border-radius: 50%;
-width: 110px;
-height: 110px;
-text-align: center;
-margin:auto;
-margin-top:33px;
-display: inline-block;
-
-
-}
-
-#fri{
-font-size: 12px;
-color: rgba(255, 255, 255, 0.486);
-letter-spacing: 1px;
-}
-
-.twentysix{
-margin-top:-20px;
-font-size: 72px;
-font-weight: 500; 
-    display: inline-block;
+.blueLinkArrow{
+    display:inline-block;
+    color: #2997ff;
 }
 
 #dates{
-padding-left: 380px;
-
+    padding-left: 380px;
 }
 
-#laterdates{
+#datesCircle{
+    color: white;
+    border: solid rgba(255, 255, 255, 0.514) 1px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    margin-top:33px;
+    display: inline-block;
+}
+
+#fri{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.486);
+    letter-spacing: 1px;
+}
+
+#date26{
+    margin-top:-20px;
     font-size: 72px;
-    font-weight: 100;
-   
-margin-top: 50px;
-opacity: 0.3;
-margin-left:25px;
-display: inline-block;
+    font-weight: 500;
 }
 
-#twentyeight{
+
+
+#date27{
+    font-size: 72px;
+    font-weight: 100;   
+    margin-top: 50px;
+    opacity: 0.3;
+    margin-left:25px;
+    display: inline-block;
+}
+
+#date28{
     font-size: 72px;
     font-weight: 100;
     opacity: 0.2;
-margin-top: 50px;
-margin-right:40px;
-display: inline-block;
-margin-left:40px;
+    margin-top: 50px;
+    margin-right:40px;
+    display: inline-block;
+    margin-left:40px;
 }
 
-#twentynine{
+#date29{
     font-size: 72px;
     font-weight: 100;
     opacity: 0.1;
-margin-top: 50px;
-display: inline-block;
-margin-left:5px;
-    
+    margin-top: 50px;
+    display: inline-block;
+    margin-left:5px;    
 }
 
-
-
-#picblock{
-
-display: block;
-margin-left: -350px;
-margin-top: -40px;
-
-
-
+#watchPic{
+    margin-left:-10px;
+    padding-bottom: 38px;
+    padding-right: 30px;
 }
 
-.picblock{
-padding-left:40px;
-
+#redPhonePic{
+    padding-right: 30px;
 }
 
-#watch{
-padding-bottom: 38px
+#iPhone13Pro{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.blackText{
+    color: black;
+}
+
+#iPhoneProHeader{
+    font-size: 55px;
+    margin-top:45px;
+}
+
+#iPhoneProHeader2{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top:-40px;    
+}
+
+#learnBuy{
+    margin-top: -10px;
+    color: #06c;
+}
+
+.darkerBlue{
+    color: #06c;
+}
+
+.learnMore{
+    padding-right: 35px;    
+}
+
+#iPhoneProPicBox{    
+    overflow: hidden;
+}
+
+#iPhoneProPic{
+    margin-left:-835px;
+    position:relative;
+    z-index: -1;
+    margin-top: -230px;
 }
