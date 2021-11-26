@@ -217,10 +217,7 @@ a{
 #iPhone13Header{
     font-size: 55px;
     text-align: center;
-    padding-top: 42px;
-    
-
-
+    padding-top: 42px;    
 }
 
 #iPhone13Header2{
@@ -242,22 +239,24 @@ a{
 
 #iPhonePic{
     margin-left:-865px;
-    /* position:relative; */
-    margin-top: -240px;
-    
-    
+    margin-top: -240px;    
 }
 
 #mainShop{
     background-color: white;
     margin-top: -36px;
+    
+    
 }
 
 #season{
     background-color: rgb(251, 237, 250);
     width: 50%;
     margin-top:48px;
-    margin-left:12px;    
+    margin-left:12px;
+    
+    
+        
 }
 
 #seasonHeader{
@@ -266,6 +265,7 @@ a{
     color: black;
     text-align: center;
     margin-bottom:10px;
+    padding-top:60px;
 }
 
 #seasonLink{
@@ -283,4 +283,45 @@ font-size: 17px;
     position:relative;
     margin-top: -175px;    
     margin-left: -330px;        
+}
+
+#airpods{    
+    margin-top:-620px;
+    margin-left: 800px;
+    overflow: hidden;  
+}
+
+#airpodPicBox{
+    margin-left: -415px;    
+    overflow: hidden;
+     
+}
+
+#airpodsHeader{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:-162px;
+    margin-left: -115px;
+    margin-bottom:-13px;
+
+
+
+}
+
+#airpodsHeader2{
+    text-align: center;
+    color: black;
+    margin-bottom: 13px;
+    font-weight: 500;
+    margin-left:-125px
+}
+
+#learnBuyAirpod{
+    margin-left:125px;
+}
+
+.smallBlueLink{
+font-size: 17px;
 }
