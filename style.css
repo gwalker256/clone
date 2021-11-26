@@ -198,6 +198,7 @@ a{
 
 #iPhoneProPicBox{    
     overflow: hidden;
+    
 }
 
 #iPhoneProPic{
@@ -210,8 +211,7 @@ a{
 #iPhone13{
     background-color: rgb(53, 40, 60);
     margin-top: -40px;
-
-    
+    height: 579px;  
 }
 
 #iPhone13Header{
@@ -242,8 +242,10 @@ a{
 
 #iPhonePic{
     margin-left:-865px;
-    position:relative;
-    margin-top: -240px; 
+    /* position:relative; */
+    margin-top: -240px;
+    
+    
 }
 
 #mainShop{
@@ -252,28 +254,33 @@ a{
 }
 
 #season{
-    background-color: rgb(238, 240, 255);
+    background-color: rgb(251, 237, 250);
     width: 50%;
-    margin-top:0px;
-    border: blue solid
-    
+    margin-top:48px;
+    margin-left:12px;    
 }
 
 #seasonHeader{
-    font-size: 20px;
+    font-size: 40px;
+    font-weight: 600;
     color: black;
     text-align: center;
-
+    margin-bottom:10px;
 }
 
-#seasonPicBox{
+#seasonLink{
+margin-left: 290px;
+font-size: 17px;
+}
+
+#seasonPicBox{    
+    margin-top: 0px;
+    height: 400px;    
     overflow: hidden;
 }
 
-#seasonPic{
-    /* margin-left:-865px; */
+#seasonPic{    
     position:relative;
-    margin-top: -240px;
-    border:blue solid;
-    
+    margin-top: -175px;    
+    margin-left: -330px;        
 }
