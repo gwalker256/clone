@@ -154,7 +154,9 @@ a{
 #watchPic{
     margin-left:-10px;
     padding-bottom: 38px;
-    padding-right: 30px;
+    padding-right: 30px;  
+    /* border: none; */
+    margin-bottom: -35px;  
 }
 
 #redPhonePic{
